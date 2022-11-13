@@ -1,0 +1,263 @@
+@font-face {
+  font-family: "Pumpkin Patch";
+  src: url("../fonts/Pumpkin Patch.otf");
+}
+
+body {
+  background-color: #f1de92;
+  margin: 0;
+}
+
+/* h1{
+    color: red;
+    margin: 10px 20px;
+} */
+
+p {
+  /* font-size: 20px; */
+  /* font-family: "Pumpkin Patch"; */
+  /* font-weight: bold; */
+  font: normal 20px "Pumpkin Patch";
+  text-align: justify;
+  line-height: 1.2em;
+
+  /* margin: 20px; */
+
+  /* margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 10px; */
+
+  /* margin: 20px 40px 60px 10px; */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 5px groove orange;
+  border-radius: 15px;
+  text-align: justify;
+}
+
+.box-2 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 5px groove orange;
+  border-radius: 15px;
+  text-align: justify;
+}
+
+.box-2 h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+  word-spacing: 0.5em;
+  color: orange;
+}
+
+.box-2 p {
+  font-family: "Times New Roman";
+  color: orange;
+}
+
+.categories {
+  border: 1px dotted #333;
+  border-radius: 15px;
+  margin: 20px 0px;
+  padding: 20px;
+}
+
+.categories h3 {
+  text-align: center;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.categories li {
+  padding-bottom: 5px;
+  list-style-image: url("../images/verified.png");
+}
+
+.categories a {
+  text-decoration: none;
+  color: #333;
+}
+.my-form {
+  padding: 20px;
+}
+.my-form.form-group {
+  padding-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+}
+.form-group input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+.my-form input[type="submit"] {
+  background-color: #440ba6;
+  padding: 4px 12px;
+  border: none;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.my-form input[type="submit"]:hover {
+  background-color: #0ba613;
+  color: chartreuse;
+  padding: 4px 12px;
+  border: none;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.block {
+  float: left;
+  width: 33.3%;
+  padding: 5%;
+  box-sizing: border-box;
+  border: dotted crimson;
+  margin-bottom: 40px;
+}
+#main-block {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: blue;
+}
+#side-bar {
+  float: right;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 30%;
+  background-color: red;
+}
+.clr {
+  clear: both;
+}
+.p-box {
+  background-image: url("../images/pc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(196, 28, 50);
+  width: auot;
+  height: 500px;
+  position: relative;
+}
+.p-box h1 {
+  font-weight: bold;
+  color: burlywood;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+.fix-buttom {
+  text-decoration: none;
+  color: #333;
+  background-color: blueviolet;
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.fix-me {
+  position: fixed;
+  top: 400px;
+  right: 0;
+}
+.my-list li {
+  list-style: none;
+  padding: 10px;
+}
+.my-list li:first-child {
+  background: red;
+}
+.my-list li:last-child {
+  background-color: aqua;
+}
+.my-list li:nth-child(2) {
+  background-color: #0ba613;
+}
+.my-list li:nth-child(3) {
+  background-color: #700ba6;
+}
+.my-list li:nth-child(4) {
+  background-color: #a60b49;
+}
+.my-list li:nth-child(5) {
+  background-color: #f5c320;
+}
+.my-list li:nth-child(6) {
+  background-color: #eb0a30;
+}
+.my-list li:nth-child(7) {
+  background-color: #98ed05;
+}
+.my-list li:nth-child(8) {
+  background-color: #e10ac8;
+}
+.my-list li:nth-child(9) {
+  background-color: #e61399;
+}
+.even-odd-list {
+  list-style: none;
+  margin: 40px 0;
+}
+.even-odd-list li {
+  padding: 10px;
+}
+.even-odd-list li:nth-child(even) {
+  background-color: rgb(32, 87, 170);
+}
+.even-odd-list li:nth-child(odd) {
+  background-color: rgb(117, 90, 7);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+.grid-item{
+  margin: 0.5rem;
+  background: #fff;
+  border: 2px solid orange;
+  padding: 30px;
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.flex-item{
+  margin: 1.2em;
+  background: #7e5f64;
+  border: 2px solid rgb(110, 166, 110);
+  padding: 30px;
+}
+  
+

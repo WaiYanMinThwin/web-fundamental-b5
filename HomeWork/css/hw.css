@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(187, 218, 248);
+    color: rgb(39, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: rgb(166, 121, 39);
+    color: wheat;
+}
+
+#navbar a{
+    text-decoration: none;
+    }
+
+#navbar{
+    background: rgb(118, 160, 208);
+    color: rgb(153, 99, 99);
+}
+#navbar ul{
+    padding: 0%;
+    list-style: none;
+}
+#navbar li{
+    float: left;
+    padding-right: 30px;
+    list-style: none;   
+}
+#navbar a{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.s1{
+    background-image: url(../images/bitcoin.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+position: relative;
+
+
+}
+.s1 p{
+    text-align:left ;
+    color: aliceblue;
+    padding-top: 19px;
+    line-height: 2.6em;
+    width: 46%;
+
+}
+#navbar a:hover{
+    color: orange;
+}
+#section-1{
+    margin-top: 30px;
+    float: left;
+    width: 75%;
+    text-align: justify;
+
+}
+#sidebar{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float: right;
+    width: 25%;
+    text-align: justify;
+}
+.clr{
+    clear: both;
+}
+#main-footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(73, 70, 70);
+
+}
